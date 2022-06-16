@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('/fonts/fontsRoboto/Roboto-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto';
+    background-color: rgb(20, 2, 29);
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 0 20px 20px 20px;
+    border: 1px solid beige;
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color: #e4e9ee;
+    text-shadow: 3px 3px 4px rgb(4, 172, 250);
+}
+
+h2{
+    margin: 0;
+    padding: 20px 0;
+    color: #e4e9ee;
+    text-shadow: 3px 3px 4px rgb(4, 172, 250);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}

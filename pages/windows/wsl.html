@@ -12,11 +12,16 @@
         <li><a href="windows.html">Windows</a> </li>
 
     </ul>
+    <h1>WLS подсистема Window для Linux</h1>
     <p>Для хранения дистрибутивов Linux (или <i><b>файлов</b></i> Linux - как сказано в документации по WSL
     <a href="https://docs.microsoft.com/ru-ru/windows/wsl/vhd-size">ссылка на докумендацию</a>) используется виртуальный жесткий диск (<b>VHD</b>).
     В WSL виртуальный жесткий диск существует в виде <b>VHDX-файла</b> на жестком диске Windows.
-
      </p>
+     <h2>Резервная копия VHD</h2>
+     <ul>
+        <li>Узнаем название дистрибутива <code>wsl --list --verbose> - выводим список установленных</code></li>
+     </ul>
+     <p>User при запуске cd $env:USERPROFILE\AppData\Local\Microsoft\WindowsApps.\ubuntu2004.exe config --default-user user_name</p>
     
 </body>
 </html>

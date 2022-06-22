@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux</title>
+</head>
+<body>
+    <ul>
+        <li><a href="/Index.html">Главная</a> </li>
+    </ul>
+    <h1>Linux</h1>
+    <h2>nvim</h2>
+    <p>~/.config/nvim/init.vim - конфигурационный файл<br>
+    <ul>
+        <li> :set autoindent (автоматический отступ)</li>
+        <li> :set relativenumber</li>
+        <li> :set tabstop=2 (число пробелова в tab)</li>
+        <li> :set shiftwidth=2 (для правильного расставления линий)</li>
+        <li> :set smarttab</li>
+        <li> :set softtabstop</li>
+        <li> :set mouse=a</li>
+    </ul></p>
+    <h3>Плагины vim-plug</h3>
+    <a href="https://github.com/junegunn/vim-plug?ysclid=l4pqi2acnm111762931">ссылка на установку</a>
+    <p>В конфигурационный файл записиваем две строчки call plug#begin() и call plug#end() между этих двух строчек будем уставливать плагины.<br>
+    Установим плагин <a href="https://github.com/vim-airline/vim-airline?ysclid=l4pqtkt6x5212885048">vim-airline</a><br>
+    Plug 'https://github.com/vim-airline/vim-airline.git' (Это ссылка на репозитрий). После этого перезапускаем nvim и запускаем комаду :PlugInstall<br>
+    Еще одни полезный плагин <a href="https://github.com/preservim/nerdtree?ysclid=l4prnxm3kg808274634">nerdtree</a> это проводник в nvim<br>
+    Добавим на него горячие клавиши! В файле настроек пишем две строчки <b>nnoremap &lt;C-n&gt; :NERDTree&lt;CR&gt;</b> и <b>nnoremap &lt;C-t&gt; :NERDTreeToggle&lt;CR&gt;</b> Теперь на CTRL+n он открывается
+    а на CTRL+t закрывается.
+    </p>
+    
+</body>
+</html>
